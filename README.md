@@ -24,14 +24,35 @@ This repository contains RFM-based customer segmentation and a targeted retentio
 ├── README.md
 └── requirements.txt
 ```
+## Setup Instructions
 
----
-
-## Setup & Run
+### Clone the Repository
 
 ```bash
-pip install -r requirements.txt
+git clone <repository-url>
+cd Part2-rfm-segmentation
+```
 
+### Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### Activate Virtual Environment
+
+```bash
+./venv/Scripts/Activate   #Windows
+source venv/bin/activate  #Mac/Linux
+```
+
+### Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### Run the Notebook
+```bash
 jupyter notebook rfm_segmentation.ipynb
 ```
 
