@@ -30,7 +30,7 @@ This repository contains RFM-based customer segmentation and a targeted retentio
 
 ```bash
 git clone <repository-url>
-cd Part2-rfm-segmentation
+cd Part2_rfm_segmentation
 ```
 
 ### Create Virtual Environment
